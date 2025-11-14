@@ -1,7 +1,7 @@
 # MangaBook Printer
 
 
-<img src="app/assets/favicon.png" alt="MangaBook Printer" width="32" height="32" style="vertical-align:middle"> **MangaBook Printer**  
+<img src="app/assets/favicon.png" alt="MangaBook Printer" width="100" height="100" style="vertical-align:middle"> **MangaBook Printer**  
 Программа для автоматического создания книжного переплета из сканов.  
 Загружаете ZIP, PNG или JPG файлы, а программа сама формирует развороты, добавляет нумерацию, регулирует поля и экспортирует готовый PDF для печати.
 
