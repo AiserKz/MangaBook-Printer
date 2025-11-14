@@ -1,0 +1,15 @@
+Небольшой напоминалька
+
+flet build windows ./ \
+  --project MangaBookPrinter \
+  --product "MangaBook Printer" \
+  --description "Программа для подготовки манги к печати" \
+  --company "AisBlack Studio" \
+  --copyright "© 2025 Aiser" \
+  --bundle-id "com.aisblack.mangabookprinter" \
+  --assets-dir "assets" \
+  --compile-app
+  
+flet pack windows ./ --module-name app.app --project-name MangaBookPrinter --product-name "MangaBook Printer" --company-name "AisBlack Studio" --bundle-id "com.aisblack.mangabookprinter" --assets-dir assets --icon assets/favicon.ico
+
+flet pack app.py -n "MangaBook Printer" -i assets/favicon.ico --add-data "assets;assets"
