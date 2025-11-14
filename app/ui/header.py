@@ -126,7 +126,7 @@ class Header:
         self.page.close(self.about_dialog)
 
     def open_github(self, e):
-        self.page.launch_url("https://github.com/AiserKz")
+        self.page.launch_url("https://github.com/AiserKz/MangaBook-Printer")
 
     def open_tg(self, e):
         self.page.launch_url("https://t.me/aisblack")
